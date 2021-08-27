@@ -1,0 +1,62 @@
+[28-Jun-2021 16:42:40 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:40 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:40 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:53 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:55 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:55 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:42:55 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 3
+[28-Jun-2021 16:46:23 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function get_one_row_from_one_table() on null in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:44
+Stack trace:
+#0 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(50): {closure}('342d5971ed96dbc...', Array)
+#1 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(292): SSP::data_output(Array, Array)
+#2 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php(104): SSP::simple(Array, Array, 'logs_tbl', 'id', Array)
+#3 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 44
+[28-Jun-2021 16:46:51 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'DbQueries' not found in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 6
+[28-Jun-2021 16:47:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function get_one_row_from_one_table() on null in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:44
+Stack trace:
+#0 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(50): {closure}('342d5971ed96dbc...', Array)
+#1 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(292): SSP::data_output(Array, Array)
+#2 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php(104): SSP::simple(Array, Array, 'logs_tbl', 'id', Array)
+#3 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 44
+[28-Jun-2021 15:48:11 UTC] PHP Warning:  Use of undefined constant USER - assumed 'USER' (this will throw an Error in a future version of PHP) in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 82
+[28-Jun-2021 15:48:11 UTC] PHP Warning:  Use of undefined constant PASSWORD - assumed 'PASSWORD' (this will throw an Error in a future version of PHP) in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 83
+[28-Jun-2021 15:48:11 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 84
+[28-Jun-2021 15:48:11 UTC] PHP Warning:  Use of undefined constant HOST - assumed 'HOST' (this will throw an Error in a future version of PHP) in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 85
+[28-Jun-2021 16:48:53 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function get_one_row_from_one_table() on null in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:43
+Stack trace:
+#0 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(50): {closure}('342d5971ed96dbc...', Array)
+#1 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/ssp.class.php(292): SSP::data_output(Array, Array)
+#2 /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php(102): SSP::simple(Array, Array, 'logs_tbl', 'id', Array)
+#3 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 43
+[28-Jun-2021 15:50:52 UTC] PHP Warning:  include(../classes/algorithm.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 2
+[28-Jun-2021 15:50:52 UTC] PHP Warning:  include(../classes/algorithm.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 2
+[28-Jun-2021 15:50:52 UTC] PHP Warning:  include(): Failed opening '../classes/algorithm.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 2
+[28-Jun-2021 16:50:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'DbQueries' not found in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 7
+[28-Jun-2021 16:51:50 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 4
+[28-Jun-2021 16:51:50 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 4
+[28-Jun-2021 16:51:50 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 4
+[28-Jun-2021 16:51:50 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'DbQueries' not found in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 6
+[28-Jun-2021 16:53:39 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'DbQueries' not found in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/f42v5vy0h3bw/public_html/dashboard2/server_tables/all_admin_logs.php on line 6

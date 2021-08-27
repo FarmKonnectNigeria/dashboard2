@@ -1,0 +1,20 @@
+<?php session_start();
+   require_once('../../classes/db_class.php');
+   include('../../includes/config.php');
+   
+    if(!isset($_SESSION['adminid'])){
+        header('location: login');
+    } 
+  ///id seession
+   $uid = $_SESSION['adminid'];
+   //class object
+   $object = new DbQueries();
+   $current_admin_details = $object->get_current_user_info('admin_tbl',$uid);
+   $surname = $current_admin_details['surname'];
+   $other_names = $current_admin_details['other_names'];
+   $fullname_user = $surname.' '.$other_names;
+   $role_id = $current_admin_details['role_right'];
+   $get_role_name = $object->get_one_row_from_one_table('admin_roles','unique_id',$uid);
+    $role_name = $get_role_name['role_name'];
+
+?>
